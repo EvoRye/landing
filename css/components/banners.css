@@ -1,0 +1,32 @@
+.banner {
+  display: flex;
+  background-image: url(../../images/background.png);
+  height: 500px;
+  align-items: center;
+  background-size: cover;
+}
+
+.container {
+  padding: 0 24px;
+}
+
+.container p {
+  color: grey;
+  font-size: 20px;
+  margin: 24px 0;
+}
+
+.container h1 {
+  color: white;
+}
+
+.container a {
+  padding: 12px 24px;
+  background-color: #1EDD88;
+  color: whitesmoke;
+  border-radius: 24px;
+}
+
+.container a:hover {
+  cursor: pointer;
+}
